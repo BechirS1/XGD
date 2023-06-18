@@ -1,0 +1,46 @@
+.Form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.submitButton {
+	display: grid;
+	align-self: flex-end;
+    font-family: "Monospace", sans-serif;
+	font-size: 18px;
+	background: #0ac933;
+	width: 350px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 35px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+	border: #0ac933;
+}
+.submitButton::placeholder{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submitButton:hover, .submitButton:focus, .submitButton:active{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+input[type='text'] {
+    border-radius: 4px;
+    width: 263px;
+    padding: 10px;
+}
+input[type='password'] {
+    border-radius: 4px;
+    width: 211px;
+    padding: 10px;
+}
+
+.Form > div {
+	margin-bottom: 15px;
+}
+  
