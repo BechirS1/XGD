@@ -1,46 +1,141 @@
-.Form {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-.submitButton {
-	display: grid;
-	align-self: flex-end;
-    font-family: "Monospace", sans-serif;
-	font-size: 18px;
-	background: #0ac933;
-	width: 350px;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #fff;
-	border-radius: 35px;
-	cursor: pointer;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-self: center;
-	border: #0ac933;
-}
-.submitButton::placeholder{
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.submitButton:hover, .submitButton:focus, .submitButton:active{
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-input[type='text'] {
-    border-radius: 4px;
-    width: 263px;
-    padding: 10px;
-}
-input[type='password'] {
-    border-radius: 4px;
-    width: 211px;
-    padding: 10px;
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right, #2cb67d, #7f5af0, #16161a);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Form > div {
-	margin-bottom: 15px;
+.Form {
+  display: grid;
+  justify-items: center;
+  width: 350px;
+  padding: 20px;
+  background-color: #16161a;
+  padding-top: 108px;
+  padding-bottom: 43px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 35px 5px rgba(0, 0, 0, 0.5);
 }
-  
+.submitButton {
+  display: grid;
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+  background: #16161a;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fffffe;
+  border-radius: 35px;
+  cursor: pointer;
+  align-self: center;
+  border: 2px solid #010101;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submitButton:hover,
+.submitButton:focus,
+.submitButton:active {
+  background: #7f5af0;
+  border-color: #010101;
+}
+input[type="text"] {
+  width: 263px;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fffffe;
+  background-color: #16161a;
+  border-color: #2cb67d;
+  border-top: #16161a;
+  border-left: #16161a;
+  border-right: #16161a;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="text"]::placeholder {
+  color: #2c2c2c;
+}
+input[type="password"] {
+  width: 235px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fffffe;
+  background-color: #16161a;
+  border-color: #2cb67d;
+  border-top: #16161a;
+  border-left: #16161a;
+  border-right: #16161a;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="password"]::placeholder {
+  color: #2c2c2c;
+}
+input[type="tel"] {
+  width: 195px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fffffe;
+  background-color: #16161a;
+  border-color: #2cb67d;
+  border-top: #16161a;
+  border-left: #16161a;
+  border-right: #16161a;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+}
+input[type="tel"]::placeholder {
+  color: #2c2c2c;
+}
+.formText {
+  position: relative;
+  right: 9px;
+  top: -43px;
+  font-weight: bold;
+  color: #fffffe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.formDetails {
+  position: relative;
+  right: 9px;
+  top: -42px;
+  font-weight: bold;
+  color: #72757e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.loginLink {
+  position: relative;
+  right: -64px;
+  bottom: 15px;
+  font-weight: bold;
+  color: #faeee7;
+}
+.loginText {
+  position: relative;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #72757e;
+}

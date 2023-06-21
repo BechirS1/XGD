@@ -7,7 +7,14 @@ const Input = (props) => {
 };
 const App = () => {
   return (
-    <div className="Form">
+    <div className="body">
+      <div className="Form">
+        <div>
+          <p className="formText">Create account.</p>
+          <p className="formDetails">
+            Fill in the boxes with your informations.
+          </p>
+        </div>
         <div>
           <Input type="text" id="name" placeholder="Your Name" />
         </div>
@@ -18,9 +25,19 @@ const App = () => {
           <Input type="password" id="password" placeholder="Your Password" />
         </div>
         <div>
-          <button className="submitButton">Submit</button>
+          <input type="tel" id="telNumber" placeholder="Phone Number" />
+        </div>
+        <div>
+          <button className="submitButton">Sign in</button>
+        </div>
+        <div>
+          <p className="LoginText">Already have an account?</p>
+          <p className="loginLink">
+            <a href="https://www.login.com/">login</a>
+          </p>
         </div>
       </div>
+    </div>
   );
 };
 
