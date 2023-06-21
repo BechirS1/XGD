@@ -139,3 +139,17 @@ input[type="tel"]::placeholder {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #72757e;
 }
+.checkPass{
+  position: relative;
+  right: 118px;
+}
+.checkPassText{
+  position: relative;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #72757e;
+  font-size: 12px;
+  right: 45px;
+  margin-top: -9px;
+  margin-bottom: -37px;
+}
